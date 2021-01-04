@@ -1,0 +1,111 @@
+.puff-previewImage-box {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.puff-image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 0;
+}
+
+.puff-image-close {
+  top: 32px;
+  right: 32px;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  z-index: 1400;
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 2px 16px 0 rgba(50, 50, 50, .16);
+  border-radius: 100%;
+  text-align: center;
+}
+
+.puff-image-close .close-image {
+  margin-top: 12px;
+  margin-left: 12px;
+  height: 16px;
+  width: 16px;
+  display: block;
+  background: center / 16px auto url('../static/images/close.png') no-repeat;
+}
+
+.puff-image-footer {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  z-index: 1400;
+  font-size: 14px;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #323233;
+}
+
+.puff-image-footer__btn {
+  color: #fff;
+  width: 24px;
+  cursor: pointer;
+  height: 24px;
+  margin: 0 1px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  border-radius: 100%;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.puff-icon-common {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 17px;
+  background-position: center center;
+}
+
+.puff-pre-image {
+  background-image: url('../static/images/pre.png');
+}
+
+.puff-next-image {
+  background-image: url('../static/images/next.png');
+}
+
+.puff-plus-image {
+  background-image: url('../static/images/plus.png');
+}
+
+.puff-minus-image {
+  background-image: url('../static/images/minus.png');
+}
+
+.puff-refresh-image {
+  background-image: url('../static/images/refresh.png');
+}
+
+.puff-flipLeft-image {
+  background-image: url('../static/images/flipLeft.png');
+}
+
+.puff-flipRight-image {
+  background-image: url('../static/images/flipRight.png');
+}
+
+.puff-arrowH-image {
+  background-image: url('../static/images/arrowH.png');
+}
+
+.puff-arrowV-image {
+  background-image: url('../static/images/arrowV.png');
+}
